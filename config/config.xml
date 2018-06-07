@@ -75,6 +75,8 @@
     -->
     <!-- Don't exit if ipv6 or ipv4 unavailable, but listen_host with this protocol specified -->
     <!-- <listen_try>0</listen_try> -->
+    
+    <listen_host>0.0.0.0</listen_host>
 
     <max_connections>4096</max_connections>
     <keep_alive_timeout>3</keep_alive_timeout>
