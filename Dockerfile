@@ -1,5 +1,7 @@
 FROM ubuntu:16.04
 
+ENV VVV 1209127837
+
 ARG repository="deb http://repo.yandex.ru/clickhouse/deb/stable/ main/"
 ARG version=\*
 
